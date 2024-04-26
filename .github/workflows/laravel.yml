@@ -4,9 +4,9 @@ name: Laravel for I4A
 # trigger when push and pull in branch main
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:  # stages
   # stage name { stage("laravel-tests")}
